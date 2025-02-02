@@ -27,7 +27,7 @@ const WindowControlsContainer = () => {
         } `}
         clickHandler={minimize}
         tooltipLabel={t('titleBar.minimize')}
-        iconName="minimize"
+        iconName="horizontal_rule"
         iconClassName="h-fit text-xl !font-light transition-[background] ease-in-out"
       />
       <Button
@@ -36,7 +36,7 @@ const WindowControlsContainer = () => {
         } `}
         clickHandler={maximize}
         tooltipLabel={t('titleBar.maximize')}
-        iconClassName="material-icons-round-outlined h-fit text-lg !font-light transition-[background] ease-in-out"
+        iconClassName="material-icons-round-outlined h-fit text-sm !font-light transition-[background] ease-in-out"
         iconName="crop_square"
       />
       <Button
